@@ -993,11 +993,11 @@ video {
 }
 
 .bg-\[url\(\'\.\/assets\/images\/texture-1700x880\.webp\'\)\]{
-  background-image: url('./assets/images/texture-1700x880.webp');
+  background-image: url('../images/texture-1700x880.webp');
 }
 
 .bg-hero{
-  background-image: url('./assets/images/home-hero.jpg');
+  background-image: url('../images/home-hero.jpg');
 }
 
 .bg-cover{

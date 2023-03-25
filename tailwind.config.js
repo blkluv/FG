@@ -14,7 +14,7 @@ module.exports = {
                 hover:'#ffb7ae'
             },
             backgroundImage: {
-                hero: "url('./assets/images/home-hero.jpg')",
+                hero: "url('../assets/images/home-hero.jpg')",
             },
             textColor: {
                 primary: "#455D58",
