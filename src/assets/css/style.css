@@ -993,10 +993,6 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\'\.\/assets\/images\/texture-1700x880\.webp\'\)\]{
-  background-image: url('../images/texture-1700x880.webp');
-}
-
 .bg-hero{
   background-image: url('../images/home-hero.jpg');
 }
