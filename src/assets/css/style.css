@@ -515,6 +515,10 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.zoom-element {
+  zoom: 1.5;
+}
+
 .visible{
   visibility: visible;
 }
