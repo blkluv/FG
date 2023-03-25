@@ -1000,6 +1000,10 @@ video {
   background-image: url('../images/home-hero.jpg');
 }
 
+.relax-banner-bg {
+  background-image: url('../images/texture-1700x880.webp');
+}
+
 .bg-cover{
   background-size: cover;
 }
