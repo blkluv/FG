@@ -1,3 +1,10 @@
 RewriteEngine On
-RewriteRule ^corporate-events.html$ corporate.html [L]
-RewriteRule ^wedding-events.html$ wedding.html [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^corporate-events$ corporate.html [L]
+RewriteRule ^wedding-events$ wedding.html [L]
+
+# Handle requests for URLs without .html extension
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([^\.]+)$ $1.html [NC,L]
