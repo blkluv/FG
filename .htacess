@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteRule ^corporate-events.html$ corporate.html [L]
+RewriteRule ^wedding-events.html$ wedding.html [L]
