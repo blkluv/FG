@@ -1,0 +1,8 @@
+{
+    "rewrites": [
+      { "source": "/corporate-events", "destination": "/corporate.html" },
+      { "source": "/wedding-events", "destination": "/wedding.html" },
+      { "source": "/pages/:slug", "destination": "/pages/:slug.html" }
+    ]
+  }
+  
